@@ -46,7 +46,7 @@ jobs:
           fi
 
       - run: |
-          echo "Set Variable Checks ${{ github.ref }}"
+          echo "Set Variable Checks ${{ github.ref }}" 
           echo "Current branch is ${{ steps.vars.outputs.branchName }}"
           echo "Version bump type is ${{ steps.vars.outputs.versionBump }}"
 
